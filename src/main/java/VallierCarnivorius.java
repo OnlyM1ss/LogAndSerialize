@@ -15,7 +15,6 @@ public class VallierCarnivorius extends Carnivorous {
     Gson gson = new GsonBuilder()
             .setPrettyPrinting()
             .create();
-
     private static final Logger logger = LogManager.getLogger();
     ArrayList<String> lionAll = new ArrayList<String>();
     ArrayList<String> tigerAll = new ArrayList<String>();
